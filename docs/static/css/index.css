@@ -1,0 +1,101 @@
+html,body{
+	font-family:"微软雅黑","Arial","宋体","黑体";
+	padding:0;
+	margin:0 auto;
+	width:100%;
+	background:#fff;
+	max-width:640px;
+}
+div,form,span,ul,li,p,dl,dt,dd,img,section,header,footer,input,textarea,a,i{
+	padding: 0;
+	margin:0;
+	border: 0;
+	list-style:none;
+	outline：none;
+}
+
+img{
+	width:100%;
+	display:block;
+}
+a{
+	text-decoration:none;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+ 	-webkit-appearance: none;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;  
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #999;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #999;
+}
+.logo {
+	width: 22.5%;
+	margin:40px auto 25px;
+}
+.title{
+	font-size: .7rem;
+	text-align: center;
+	font-family:"苹方";
+	font-weight: 1000;
+	color:#87aaf4;
+}
+.form{
+	margin:1rem auto 0;
+	width: 6rem;
+}
+.form li{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.form li span{
+	font-size: .4rem;
+	font-weight: 400;
+	font-family:"苹方";
+	color:#666;
+	/*vertical-align: middle;*/
+}
+.form li input{
+	width: 3.6rem;
+	border: 1px solid #eee;
+	height: .4rem;
+	border-radius: 4px;
+}
+.btn{
+	width: 7rem;
+	height: 1rem;
+	line-height: 1rem;
+	color: #fff;
+	font-size: .5rem;
+	font-family:"苹方";
+	/*font-weight: 600;*/
+	border-radius: .1rem;
+	text-align: center;
+	background-color: #87aaf4;
+	margin:2rem auto;
+}
+table{
+	width: 6rem;
+	margin:30px auto;
+}
+tr td:nth-child(1){
+	width: 2rem;
+	text-align: center;
+}
+tr td:nth-child(2){
+	width:4rem;
+	text-align: center;
+}

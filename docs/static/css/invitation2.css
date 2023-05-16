@@ -1,0 +1,75 @@
+html,body{
+	font-family:"方正兰亭粗黑","宋体","微软雅黑","Arial","黑体";
+	padding:0;
+	margin:0 auto;
+	width:100%;
+	background:#fff;
+	max-width:640px;
+}
+div,form,span,ul,li,p,dl,dt,dd,img,section,header,footer,input,textarea,a,i{
+	padding: 0;
+	margin:0;
+	border: 0;
+	list-style:none;
+	outline：none;
+}
+
+img{
+	width:100%;
+	display:block;
+}
+a{
+	text-decoration:none;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+ 	-webkit-appearance: none;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;  
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #999;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #999;
+}
+.wrap{
+	width: 100%;
+	height: 177%;
+	position: relative;
+}
+.wrap img{
+	width: 100%;
+	height: 100%;
+}
+.content{
+	position: absolute;
+	top: 32%;
+	width: 100%;
+	text-align: left;
+	padding-left:80px;
+	color: #666;
+	font-size: .4rem;
+	font-family:"苹方";
+	line-height: .7rem;
+}
+.jieguo{
+	position: absolute;
+	top: 76%;
+	width: 100%;
+	text-align: left;
+	padding-left:50px;
+	color: #666;
+	font-size: .46rem;
+	font-family:"苹方";
+	line-height: .7rem;
+	}
